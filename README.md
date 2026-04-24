@@ -15,11 +15,12 @@ AI-powered waste sorting interface for public recycling stations.
 cd SmartWasteBin
 python -m http.server 8000
 Open: http://localhost:8000
+```
 
 ### Option 3: Double-click
 ⚠️ Camera won't work due to browser security (HTTPS required)
 
-📁 Project Structure
+## 📁 Project Structure
 text
 
 SmartWasteBin/
@@ -32,18 +33,21 @@ SmartWasteBin/
 │   ├── TechnicalSpec.pdf
 │   └── StyleGuide.pdf
 └── versions/           # Code iterations (for report)
-🎯 Features
+
+## 🎯 Features
 ✅ Offline-first (no internet required)
 ✅ 7-state state machine (IDLE → CAMERA → PROCESSING → RESULT → ...)
 ✅ AI classification simulation (rule-based)
 ✅ Accessibility-optimized (64px+ touch targets)
 ✅ Outdoor-readable (high contrast, text shadows)
-🔧 Technology Stack
+
+## 🔧 Technology Stack
 Frontend: HTML5, Tailwind CSS (CDN)
 Logic: Vanilla JavaScript (no frameworks)
 AI: TensorFlow.js MobileNetV2 (optional)
 Target Device: Raspberry Pi 4 + 10" touchscreen
-🧪 Testing
+
+## 🧪 Testing
 Full User Flow Test
 Open in browser
 Wait 3 sec (auto-transition to CAMERA)
@@ -56,12 +60,14 @@ Performance Test
 Open Chrome DevTools (F12) → Performance tab
 Record full user flow
 Check: FPS ≥ 60, CPU < 50%
-📊 Statistics
+
+## 📊 Statistics
 Lines of Code: ~800 (HTML + CSS + JS)
 File Size: 45 KB (without images)
 Load Time: <2 seconds on Raspberry Pi 4
 Supported Browsers: Chrome 90+, Firefox 88+, Safari 14+
-🐛 Known Issues
+
+## 🐛 Known Issues
 Camera not working in local file mode
 
 Solution: Use http-server or Live Server

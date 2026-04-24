@@ -1,0 +1,40 @@
+{
+  "idle": {
+    "welcome": "APPROACH TO SCAN",
+    "stats": "{{WEIGHT}} kg recycled today. Keep going! 🌍"
+  },
+  "camera": {
+    "instruction": "HOLD OBJECT STEADY",
+    "waiting": "Waiting for object..."
+  },
+  "processing": {
+    "step1": "Analyzing shape...",
+    "step2": "Checking material...",
+    "step3": "Calculating confidence..."
+  },
+  "result": {
+    "title": "{{CATEGORY}} DETECTED",
+    "confidence": "Confidence: {{CONFIDENCE}}%",
+    "explanation": "{{REASONING}}",
+    "cta": "DEPOSIT",
+    "correction": "WRONG? TAP TO CORRECT"
+  },
+  "manual": {
+    "prompt": "Help me learn - select category:",
+    "encouragement": "Your input improves sorting for everyone! 🙏"
+  },
+  "sorting": {
+    "message": "Opening {{CATEGORY}} compartment...",
+    "progress": "Processing..."
+  },
+  "confirmation": {
+    "success": "✓ {{CATEGORY}} recycled successfully!",
+    "stats": "You've recycled {{TOTAL}} kg this month. Amazing work! 🌍"
+  },
+  "errors": {
+    "camera_blocked": "⚠️ Camera blocked - clean lens",
+    "multiple_objects": "Please insert one item at a time",
+    "too_large": "Object too large for this bin",
+    "no_permission": "Camera access denied. Please enable in browser settings."
+  }
+}
